@@ -64,6 +64,15 @@ body {
     color: #5d401a;
 }
 
+.header_link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.header_link:hover .header_container {
+    opacity: 0.8;
+}
 
 .header_address {
     display: flex;
